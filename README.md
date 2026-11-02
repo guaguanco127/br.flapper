@@ -19,6 +19,8 @@ These files were created with Max 9, or RNBO.
 [Max/MSP RNBO for External or VST](https://github.com/guaguanco127/br.flapper/tree/main/RNBO%20Patchers%20for%20External%20or%20VST) To build your own Max external, or a VST or AU audio plugin (needs RNBO)  
 [Ableton Max for Live Device](https://github.com/guaguanco127/br.flapper/tree/main/Ableton%20Max%20For%20Live) To use inside of Ableton Suite  
 
+**Max for Live note:** if Live's audio engine is off (no audio output device chosen, an orange bar at the bottom of Live), the device opens with its controls at 0 or their lowest value. Turn audio on and they jump to their default values by themselves.
+
 ## <a name="About"></a>About
 
 A stereo triggered delay-line flapper for Max/MSP, built in gen~. It is always recording what you play. Each trigger starts a flap: it marks that moment, plays toward "now", turns around, plays back to the moment it marked, turns again, and keeps flapping between the two while its envelope lasts. "Now" keeps moving, so the window grows the longer a flap plays. Up to 6 flaps play at once, each one panned somewhere else in the stereo field.
